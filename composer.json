@@ -21,6 +21,10 @@
 		{
 			"type": "vcs",
 			"url": "git@github.com:silverstripe-labs/silverstripe-payment.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:PlatoCreative/silverstripe-swipestripe.git"
 		}
 	],
 	"minimum-stability": "dev"
