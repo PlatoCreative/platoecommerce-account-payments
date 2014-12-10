@@ -1,0 +1,30 @@
+{
+	"name": "Swipstripe-Account-Payments",
+	"description": "SilverStripe Account Payments",
+	"type": "silverstripe-module",
+	"license": "BSD-3-Clause",
+	"keywords": ["silverstripe","payment","account"],
+	"authors": [
+		{
+			"name": "Plato Creative",
+			"homepage": "https://github.com/PlatoCreative",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3.2",
+		"silverstripe/cms": "3.*",
+		"silverstripe/framework": "3.*",
+		"silverstripe/payment": "1.0.*"
+	},
+	"repositories": [
+    {
+        "type": "vcs",
+        "url": "git@github.com:PlatoCreative/silverstripe-swipestripe.git"
+    },
+		{
+			"type": "vcs",
+			"url": "git@github.com:silverstripe-labs/silverstripe-payment.git"
+		}
+	]
+}
