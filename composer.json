@@ -1,5 +1,5 @@
 {
-	"name": "Swipstripe-Account-Payments",
+	"name": "swipestripe/account-payments",
 	"description": "SilverStripe Account Payments",
 	"type": "silverstripe-module",
 	"license": "BSD-3-Clause",
@@ -18,10 +18,6 @@
 		"silverstripe/payment": "1.0.*"
 	},
 	"repositories": [
-    {
-        "type": "vcs",
-        "url": "git@github.com:PlatoCreative/silverstripe-swipestripe.git"
-    },
 		{
 			"type": "vcs",
 			"url": "git@github.com:silverstripe-labs/silverstripe-payment.git"
