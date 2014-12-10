@@ -1,0 +1,16 @@
+name: AccountPayments
+---
+
+PaymentFactory:
+  AccountPayment:
+    title: 'Account Payment'
+    gateway_classes:
+      live: 'AccountPaymentGateway'
+      dev: 'AccountPaymentGateway'
+      test: 'AccountPaymentGateway'
+    processor: 'AccountPaymentProcessor'
+    model: 'AccountPayment'
+
+CheckoutPage_Controller:
+  extensions:
+    - AccountPaymentCheckoutPage
