@@ -1,5 +1,7 @@
 <?php
-
+/*
+*	AccountPaymentCheckoutPage extends CheckoutPage
+*/
 class AccountPaymentCheckoutPage extends DataExtension {	
 	public function onAfterInit(){
 		Requirements::javascript('account-payments/js/accountpayment.js');	
