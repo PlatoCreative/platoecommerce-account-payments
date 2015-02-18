@@ -1,5 +1,5 @@
 {
-	"name": "swipestripe/account-payments",
+	"name": "swipestripe/swipestripe-account-payments",
 	"description": "SilverStripe Account Payments",
 	"type": "silverstripe-module",
 	"license": "BSD-3-Clause",
