@@ -6,12 +6,16 @@ jQuery(document).ready(function($){
 	$('#OrderForm_OrderForm_PaymentMethod').change(function(e){
 		checkFieldAccountPayment();
 	});
-	
+
 	function checkFieldAccountPayment(){
 		if($('#OrderForm_OrderForm_PaymentMethod').val() == 'AccountPayment'){
 			$.get('checkout/AccountPaymentFields', function(data){
 				$('#payment-load-area').html(data);
 			});
+		} else {
+			if($('#AccountPaymentNumber').length > 0){
+				$('#payment-load-area').html('');
+			}
 		}
 	}
 	checkFieldAccountPayment();
