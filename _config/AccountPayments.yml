@@ -14,3 +14,11 @@ PaymentFactory:
 CheckoutPage_Controller:
   extensions:
     - AccountPaymentCheckoutPage
+
+Customer:
+  extensions:
+    - AccountPaymentCustomer
+
+AccountPage_Controller:
+  extensions:
+    - AccountPaymentAccountPage_Controller
