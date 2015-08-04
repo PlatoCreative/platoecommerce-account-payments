@@ -15,7 +15,7 @@ class AccountPaymentCheckoutPage extends DataExtension {
 		if(Director::is_ajax()){
 			$customer = Member::currentUser();
 			$fields = CompositeField::create(
-				TextField::create('AccountPaymentNumber', 'Account Number', ($customer ? $customer->AccountNumber : ''))
+				TextField::create('AccountPaymentNumber', 'Account Number', ($customer ? $customer->AccountNumber : ''))->setAttribute('required', 'required')
 			)->setName('AccountPaymentFields');
 
 			return $fields->FieldHolder();
