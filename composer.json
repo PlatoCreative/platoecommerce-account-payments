@@ -12,19 +12,14 @@
 		}
 	],
 	"require": {
-		"php": ">=5.3.2",
-		"silverstripe/cms": "3.*",
-		"silverstripe/framework": "3.*",
+		"silverstripe/framework": "~3.6",
+		"silverstripe/cms": "~3.6",
 		"silverstripe/payment": "1.0.*"
 	},
 	"repositories": [
 		{
 			"type": "vcs",
 			"url": "git@github.com:silverstripe-labs/silverstripe-payment.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:PlatoCreative/silverstripe-swipestripe.git"
 		}
 	],
 	"minimum-stability": "dev"
