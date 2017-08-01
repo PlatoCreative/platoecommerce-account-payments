@@ -27,5 +27,8 @@
 			"url": "git@github.com:PlatoCreative/silverstripe-swipestripe.git"
 		}
 	],
-	"minimum-stability": "dev"
+	"minimum-stability": "dev",
+	"extra": {
+		"installer-name": "plato-ecommerce-account-payments"
+	    }
 }
