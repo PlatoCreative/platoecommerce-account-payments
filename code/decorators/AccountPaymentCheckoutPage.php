@@ -4,7 +4,7 @@
 */
 class AccountPaymentCheckoutPage extends DataExtension {
 	public function onAfterInit(){
-		Requirements::javascript('swipestripe-account-payments/js/accountpayment.js');
+		Requirements::javascript('plato-ecommerce-account-payments/js/accountpayment.js');
 	}
 
 	private static $allowed_actions = array (
